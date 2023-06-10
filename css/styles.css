@@ -445,7 +445,6 @@ button {
 
   .page-header-container {
     display: flex;
-    justify-content: space-between;
   }
 
   .menu-nav {
@@ -484,10 +483,13 @@ button {
   }
 
   .authorization {
-    padding: 12px 0;
+    padding: 6px 0;
+    margin-left: auto;
   }
 
   .auth-contact {
+    font-size: 12px;
+    line-height: 1.17;
     font-style: normal;
     color: var(--color-text);
     transition: color var(--transition-dur);
@@ -496,6 +498,10 @@ button {
   .auth-contact:hover,
   .auth-contact:focus {
     color: var(--link-hover);
+  }
+
+  .item-mail {
+    margin-bottom: 12px;
   }
 
   .main-title {
@@ -597,6 +603,10 @@ button {
     width: 264px;
   }
 
+  .modal {
+    overflow: scroll;
+  }
+
 }
 
 
@@ -613,7 +623,7 @@ button {
   }
 
   .hero {
-    padding: 118px 0;
+    padding: 188px 0;
     max-width: 1440px;
     height: 600px;
   }
@@ -631,6 +641,15 @@ button {
   .list-auth {
     display: flex;
     column-gap: 40px;
+  }
+
+  .auth-contact {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .item-mail {
+    margin-bottom: 0;
   }
 
   .authorization {
@@ -689,6 +708,10 @@ button {
   .footer .container {
     justify-content: space-between;
     padding: 100px 15px;
+  }
+
+  .backdrop .modal {
+    overflow: visible;
   }
 
 
